@@ -1,4 +1,4 @@
-package com.senior.engineer.course.readinglistservice.domain;
+package com.senior.engineer.course.readinglistservice.domain.model;
 
 //import jakarta.persistence.GeneratedValue;
 //import jakarta.persistence.GenerationType;
@@ -24,5 +24,6 @@ public class Book {
   private String author;
   private String isbn;
   private Integer publicationYear;
-
+  private Integer pages;
+  private BookFormat format;
 }
