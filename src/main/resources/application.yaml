@@ -1,3 +1,9 @@
 spring:
   application:
     name: reading-list-service
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "health,info,prometheus"
